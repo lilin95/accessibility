@@ -18,6 +18,7 @@ h1, h2, h3, h4 {
   margin: 1.414em 0 0.5em;
   font-weight: inherit;
   line-height: 1.2;
+  color: red;
 }
 
 h1 {
@@ -63,17 +64,21 @@ a:hover {
 
 table {
   table-layout: fixed;
+  border-style: solid;
+  border-color: black;
+  width: 45%;
 }
 th,td {
   padding: .75em .5em;
-  border-bottom: 1px solid #ddd;
+  border-style: solid;
+  border-color: midnightblue;
+  font-size: 18px;
 }
 th {
-  text-align: right;
-  border-right: 2px solid #ddd;
+  text-align: right;  
 }
 tr:first-child th, tr:first-child td {
-  border-top: 1px solid #ddd;
+  border-top: 1px solid;
 }
 .pull-right {
   float: right;
